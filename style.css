@@ -1,6 +1,87 @@
+body{
+    background-image:url("http://www.mrwallpaper.com/wallpapers/sunset-anime-girl.jpg"); 
+    background-size:cover; 
+    background-attachment: fixed; 
+    
 
+}
+
+#profile{
+    border:2px #FFF solid ; 
+    width:30%; 
+    height:30%; 
+}
+
+header{
+    font-family: sans-serif; 
+    color:#FFF; 
+    margin:5%; 
+    
+}
+
+.content aside{
+    float:left; 
+    max-width: 40%; 
+}
+
+.bio{
+    float:right; 
+    width:40%; 
+    
+}
+.content{
+    max-width:100%; 
+    margin:0 5%; 
+
+    
+    
+}
+.content h2{
+    color:#FFF; 
+    font-weight:bold;
+    opacity:80%; 
+    font-family: sans-serif; 
+    
+    
+}
+.content p{
+    color:#FFF; 
+    padding:15px; 
+    font-family:verdana; 
+    background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+  to(rgba(80,80,80,0.2)), color-stop(1,#a6a6a6)
+);
+    background-image: -moz-gradient(
+  linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+  to(rgba(80,80,80,0.2)), color-stop(1,#a6a6a6)
+);
+    background-image: -O-gradient(
+  linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+  to(rgba(80,80,80,0.2)), color-stop(1,#a6a6a6)
+);
+    background-image: -ms-gradient(
+  linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+  to(rgba(80,80,80,0.2)), color-stop(1,#a6a6a6)
+);
+    overflow: hidden; 
+    -webkit-transition:max-height 0.4s;
+    -ms-transition:max-height 0.4s;
+    -moz-transition:max-height 0.4s;
+    -o-transition:max-height 0.4s;
+    transition:max-height 0.4s; 
+    
+
+}
 
 .contactLinks{
+    clear:both; 
+    background-color:#000000; 
+    color:#FFF;
+    
+    width:30%; 
+}
+.contactLinks a{
     text-decoration: none; 
     
 }
