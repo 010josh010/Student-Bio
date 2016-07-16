@@ -8,6 +8,7 @@ body{
 
 }
 
+
 #profile{
     border:2px #FFF solid ; 
     width:100%; 
@@ -23,13 +24,57 @@ header{
 }
 
 .pointer{
-    width:0;
-	height:0;
-	border-left: 12.5px solid transparent;
-	border-right: 12.5px solid transparent;
-	border-top: 25px solid #FFF;
+    width: 0;
+	height: 0;
+	border-top: 7.5px solid transparent;
+	border-left: 15px solid #FFF;
+	border-bottom: 7.5px solid transparent;
+    margin:2% 1% 1% 5%;
+    float:left; 
+
 }
 
+.pointerActive{
+    width: 0;
+	height: 0;
+	border-left: 7.5px solid transparent;
+	border-right: 7.5px solid transparent;
+	border-top: 15px solid #FFF;
+    margin:3% 1% 1% 5%;
+}
+
+.favs{
+    width:30%; 
+    height:25px; 
+    margin-left:5%;
+    font-family: 'Poiret One', cursive; 
+    color:#FFF; 
+    cursor:pointer; 
+    
+}
+
+.games{
+     background-image:url(http://www.pptback.com/uploads/borders-frames-notepad-backgrounds-powerpoint.jpg); 
+     background-size:contain;
+     background-repeat:no-repeat; 
+     width:225px; 
+     margin-left:5%; 
+     color:#FFF; 
+     font-weight:bold ;
+     font-family: 'Indie Flower', cursive; 
+     box-shadow: 2px 1px 1px 1px #000;
+     display:none; 
+     
+}
+.games a {
+    text-decoration: none; 
+    list-style-type:none;
+    margin:1% .2%;
+}
+
+.gamesActive{
+    display:block; 
+}
 .content{
     float:left; 
     width:40%; 
@@ -41,8 +86,7 @@ header{
     font-weight:bold;
     opacity:80%; 
     font-family: 'Poiret One', cursive;
-    
-    
+
 }
 
 .bio{
@@ -113,6 +157,10 @@ header{
     width:50px;
     margin-left:12%; 
   
+}
+
+.contactLinks img:hover{
+    opacity: 50%; 
 }
 .contactLinks a{
     text-decoration: none; 

@@ -10,8 +10,15 @@
    <header><h1>Student Bio</h1></header>
    <hr>
     <div class="pointer"></div>
-  
-   
+    <p class ="favs">Games currently playing</p>
+     
+     <div class = "games"> 
+         <ul>
+             <a href="http://www.ign.com/games/metal-gear-solid-5/ps4-149843" target="_blank"><li>Metal Gear Solid 5</li></a>
+             <a href="http://www.ign.com/games/until-dawn/ps4-20022170" target="_blank"><li>Until Dawn</li></a>
+             <a href="http://www.ign.com/articles/2015/11/17/sword-art-online-lost-song-review" target="_blank"><li>Sword Art Online: Lost Song</li></a>
+         </ul>
+     </div>
     <aside class = "content">
         <h2>Joshua Vaughn</h2>
             <img id="profile" src ="http://emmyjames.com/pics/programmer.jpg"> 
@@ -36,6 +43,13 @@
         
     </div>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+    $('.favs').click(function(){
+        $('.games').toggleClass('gamesActive');
+        $('.pointer').toggleClass('pointerActive'); 
+    }); 
+    
+    </script>   
 </body>
 </html>
