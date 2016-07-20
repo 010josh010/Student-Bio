@@ -29,7 +29,7 @@ header{
 	border-top: 7.5px solid transparent;
 	border-left: 15px solid #FFF;
 	border-bottom: 7.5px solid transparent;
-    margin:2% 1% 1% 5%;
+    margin:10px 1% 1% 5%;
     float:left; 
 
 }
@@ -40,7 +40,7 @@ header{
 	border-left: 7.5px solid transparent;
 	border-right: 7.5px solid transparent;
 	border-top: 15px solid #FFF;
-    margin:3% 1% 1% 5%;
+    margin:20px 1% 1% 5%;
 }
 
 .favs{
@@ -62,14 +62,19 @@ header{
      color:#FFF; 
      font-weight:bold ;
      font-family: 'Indie Flower', cursive; 
-     box-shadow: 2px 1px 1px 1px #000;
+     box-shadow: 2px 1px 2px 1px #000;
      display:none; 
      
 }
 .games a {
     text-decoration: none; 
     list-style-type:none;
+    color:#000; 
     margin:1% .2%;
+}
+
+.games a:hover{
+    color:#600080; 
 }
 
 .gamesActive{
@@ -155,13 +160,15 @@ header{
 .contactLinks img{
     height:50px;  
     width:50px;
-    margin-left:12%; 
+    margin-left:12%;
+    opacity:.7; 
   
 }
 
 .contactLinks img:hover{
-    opacity: 50%; 
+    opacity:1; 
 }
+
 .contactLinks a{
     text-decoration: none; 
     list-style-type:none; 
